@@ -58,19 +58,19 @@ function Featuring() {
         <Grid container justifyContent="center" sx={{ textAlign: "center" }}>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
-              count={5234}
+              count={612186}
               separator=","
-              title="Projects"
-              description="Of “high-performing” level are led by a certified project manager"
+              title="Tâm Hồn Của Đá"
+              description="Nhắc đến Tâm Hồn Của Đá, bất cứ ai, dù đam mê Rock hay không, cũng sẽ từng biết đến bài hát này bởi nó là một trong những sản phẩm âm nhạc không chỉ giới chuyên môn đánh giá cao, mà còn từng xuất hiện trong rất nhiều đề luyện thi môn Văn."
             />
           </Grid>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
-              count={3400}
+              count={742017}
               separator=","
-              suffix="+"
-              title="Hours"
-              description="That meets quality standards required by our users"
+              suffix=""
+              title="Em ơi, em hãy bước đi, đêm nay ngắn lắm, chưa chi đã tàn"
+              description="Yoru wa Mijikashi Aruke yo Otome (夜よるは短みじかし歩あるけよ乙おと女め?) là phim hoạt hình anime hài lãng mạn Nhật Bản được đạo diễn bởi Yuasa Masaaki. Bộ phim dựa trên tiểu thuyết cùng tên do Morimi Tomihiko viết và Nakamura Yusuke minh họa, đồng thời anh cũng phụ trách thiết kế nhân vật gốc trong phim."
             />
           </Grid>
           <Grid item xs={12} md={3}>
@@ -78,7 +78,7 @@ function Featuring() {
               count={24}
               suffix="/7"
               title="Support"
-              description="Actively engage team members that finishes on time"
+              description="Người lập trình không bao giờ ngủ."
             />
           </Grid>
         </Grid>

@@ -10,52 +10,33 @@ import MKTypography from "components/MKTypography";
 // Images
 import logoCT from "assets/images/logo-ct-dark.png";
 
-const date = new Date().getFullYear();
-
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "Navigation Web",
     image: logoCT,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.youtube.com/watch?v=l8wSgsWYc7c",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "https://www.youtube.com/watch?v=l8wSgsWYc7c",
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://www.youtube.com/watch?v=l8wSgsWYc7c",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "https://www.youtube.com/watch?v=l8wSgsWYc7c",
     },
   ],
   menus: [
     {
-      name: "company",
-      items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
-      ],
-    },
-    {
-      name: "resources",
-      items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-      ],
-    },
-    {
-      name: "help & support",
+      name: "Hỗ trợ khách hàng",
       items: [
         { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
         { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
@@ -64,7 +45,7 @@ export default {
       ],
     },
     {
-      name: "legal",
+      name: "Luật",
       items: [
         { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
         { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
@@ -74,18 +55,7 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
-      <MKTypography
-        component="a"
-        href="https://www.creative-tim.com"
-        target="_blank"
-        rel="noreferrer"
-        variant="button"
-        fontWeight="regular"
-      >
-        Creative Tim
-      </MKTypography>
-      .
+      Trong trường hợp.
     </MKTypography>
   ),
 };

@@ -76,7 +76,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              WEB HỖ TRỢ GIA ĐÌNH{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -85,8 +85,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Trang web hỗ trợ theo dõi người thân vì mục đích cao cả hàng đầu Việt Nam.
             </MKTypography>
           </Grid>
         </Container>

@@ -22,7 +22,6 @@ import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 
 function Information() {
   return (
@@ -35,8 +34,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Trang này cho phép"
+                    description=" Người dùng có thể dùng trang web này để theo dõi người thân trong trường hợp cần thiết."
                   />
                 </MKBox>
               </Grid>
@@ -44,8 +43,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="payments"
-                    title="Payments functionality"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Ngày xưa một vùng Tây Bắc"
+                    description="Có một sơn nữ mang tên là Ban Nhiều chàng trai Mường đắm say nhưng trái tim nàng đã trao chàng Khum Chàng trai này giỏi săn bắn luôn chăm lo mùa màng trên nương"
                   />
                 </MKBox>
               </Grid>
@@ -53,8 +52,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="apps"
-                    title="Prebuilt components"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Từ đó nơi này hoa trắng lưu huyền"
+                    description="Chàng Khum cũng lần theo dấu đi tìm Rồi cũng chết hóa loài chim trời một mình Từ đây người Mường, người Thái lấy tên nàng ban cho loài hoa"
                   />
                 </MKBox>
               </Grid>
@@ -62,25 +61,12 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
-                    title="Improved platform"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Trong trường hợp"
+                    description="Nhóm này bị điều tra bởi các cơ quan trực thuộc bộ công an (hoặc các tổ chức chính trị tương tự phục vụ cho nhà nước CHXHCNVN), tôi khẳng định mình không liên quan tới nhóm hoặc những cá nhân khác trong nhóm này. Tôi không rõ tại sao mình lại có mặt ở đây vào thời điểm này, có lẽ tài khoản của tôi đã được thêm bởi một bên thứ ba."
                   />
                 </MKBox>
               </Grid>
             </Grid>
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
-            <CenteredBlogCard
-              image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              title="Get insights on Search"
-              description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
-              action={{
-                type: "internal",
-                route: "pages/company/about-us",
-                color: "info",
-                label: "find out more",
-              }}
-            />
           </Grid>
         </Grid>
       </Container>
